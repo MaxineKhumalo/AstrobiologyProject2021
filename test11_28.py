@@ -12,7 +12,7 @@ import pickle
 
 earthlike = exo.Model(resolution='T21', ncpus=1, workdir='earthlike_run', modelname='Earth-like', outputtype='.npz')
 
-P = [0.1, 1, 10, 100]
+P = [1, 10, 100]
 
 for i in P:
     print('P = ', P)
